@@ -3,10 +3,6 @@ package Midterm;
 
 
 public class queueArray {
-    
-    
-
-    
     private int[] queue = new int[5];
     private int front = 0;
     private int rear = -1;
