@@ -1,0 +1,46 @@
+1. Explain how polymorphism works in your code. Identify the parent class, child classes, and overridden method.
+
+Polymorphism works in my code because different child classes can use the same method but produce different results.
+- Parent class: Animal
+- Child classes: Dog and Cat
+- Overridden method: makeSound()
+The Dog class overrides the method to display "Dog barks," while the Cat class overrides it to display "Cat meows." This shows that one method can have different behaviors depending on the object.
+
+2. Explain how abstraction works in your code. Identify the abstract class, abstract method, and its implementation.
+Abstraction works in my code by hiding unnecessary details and showing only the important features.
+- Abstract class: Animal
+- Abstract method: makeSound()
+- Implementation: The Dog and Cat classes provide their own implementation of the makeSound() method.
+The abstract class defines what the animals should do, while the child classes define how they will do it.
+
+3. Explain the difference between polymorphism and abstraction
+
+Polymorphism allows different classes to perform the same method in different ways, while abstraction hides unnecessary details and focuses on the important functions of a program.
+In simple words, polymorphism is about having many forms or behaviors, while abstraction is about hiding details and showing only what is necessary.
+Both are important in programming because they make code more organized, flexible, reusable, and easier to maintain.
+
+## Answer the following questions:
+
+1. Why is method overriding important in polymorphism? What happens if a child class does not override the parent's method?
+
+Method overriding is important because it allows a child class to provide its own implementation of a method inherited from its parent class. This makes polymorphism possible because different child classes can respond differently to the same method.
+If a child class does not override the parent's method, it will simply use the inherited method from the parent class.
+
+2. Why can't we create an object directly from an abstract class? What is the purpose of this restriction?
+
+We cannot create an object directly from an abstract class because it may contain abstract methods that do not have an implementation. The purpose of this restriction is to make sure that child classes provide the required implementations before they can be used.
+It also helps organize code and provides a clear structure for related classes.
+
+3. If you need to add another child class to your polymorphism program, how would your existing code handle it?
+
+I would simply create another child class that inherits from the parent class and overrides its methods when needed. The existing code can still work without major changes because polymorphism allows different child classes to be handled using the same parent class reference.
+
+4. Can polymorphism and abstraction work together in a single program?
+
+ polymorphism and abstraction can work together in one program. Abstraction hides unnecessary details and defines what a class should do, while polymorphism allows different child classes to perform the same method in different ways.
+
+ 5. As a future programmer, when would you use polymorphism, and when would you use abstraction?
+
+As a future programmer, I would use polymorphism when I want different classes to perform the same action in different ways. It helps make programs flexible, reusable, and easier to maintain.
+I would use abstraction when I want to hide unnecessary details and focus only on the important features of an object. It helps make code more organized and easier to understand.
+Both concepts are important because they help create programs that are flexible, organized, and easier to update in the future.
